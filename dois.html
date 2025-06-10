@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Barbearia Dois Irmãos</title>
+  <meta name="description" content="Barbearia Dois Irmãos - cortes modernos, barba, pintura e mais. Agende já seu horário!">
+  <link rel="shortcut icon" href="barbearia-dois-irmaos.ico.ico" type="image/x-icon">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      scroll-behavior: smooth;
+    }
+ 
+    section {
+      padding: 60px 0;
+      scroll-margin-top: 80px;
+    }
+ 
+    .navbar-brand {
+      font-weight: bold;
+    }
+ 
+    .card img {
+      height: 250px;
+      object-fit: cover;
+    }
+  </style>
+</head>
+<body>
+ 
+  <!-- Barra de navegação -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Barbearia Dois Irmãos</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+          <li class="nav-item"><a class="nav-link" href="#servicos">Serviços</a></li>
+          <li class="nav-item"><a class="nav-link" href="#produtos">Produtos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#agendamento">Agendamento</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+ <!-- Carrossel -->
+<div id="carouselExample" class="carousel slide">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="Americano.jpg" class="d-block carousel-img mx-auto" alt="Imagem 1">
+      </div>
+      <div class="carousel-item">
+        <img src="corte low fade.jpg" class="d-block carousel-img mx-auto" alt="Imagem 2">
+      </div>
+      <div class="carousel-item">
+        <img src="corte-cacheado.jpg" class="d-block carousel-img mx-auto" alt="Imagem 3">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Anterior</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Próximo</span>
+    </button>
+  </div>
+  
+  <!-- Estilos personalizados -->
+  <style>
+    .carousel {
+      margin-top: 10px; /* compensa a navbar fixa */
+    }
+  
+    .carousel-img {
+      max-height: 600px; /* ou ajuste como quiser */
+      width: auto;
+      max-width: 100%;
+      height: auto;
+      display: block;
+    }
+  
+    .carousel-inner {
+      text-align: center;
+      background-color: #222020; /* opcional: cor de fundo se imagem não preencher totalmente */
+    }
+  </style>
+  
+<!-- Seção Sobre -->
+<section id="sobre" class="container">
+    <h2 class="text-center">Sobre Nós</h2>
+    <p class="text-center">Em 2017, com apenas 15 e 13 anos, dois irmãos iniciaram a jornada da Barbearia Dois Irmãos. Com garra e dedicação, transformaram o sonho de um espaço moderno e acolhedor em realidade. Hoje, a barbearia é a materialização desse esforço, um lugar onde a arte do cuidado masculino se une a uma história de superação. Venha viver essa experiência conosco e sinta a energia de um sonho realizado!</p>
+    </section>
+ 
+  <!-- Seção Serviços -->
+  <section id="servicos" class="bg-light">
+    <div class="container">
+      <h2 class="text-center">Nossos Serviços</h2>
+      <div class="row text-center">
+        <div class="col-md-3">
+          <div class="card p-3">
+            <h5>💈 Corte de Cabelo</h5>
+            <p>Cortes modernos e bem alinhados para valorizar seu estilo.</p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card p-3">
+            <h5>✂️ Barba</h5>
+            <p>Feita com precisão e cuidado para um visual impecável.</p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card p-3">
+            <h5>🎨 Corte + Pintura</h5>
+            <p>Visual completo com pintura profissional.</p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card p-3">
+            <h5>🧼 Sobrancelha + Limpeza</h5>
+            <p>Rosto renovado com cuidados especiais.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+ <!-- Seção Produtos -->
+<section id="produtos" class="container">
+    <h2 class="text-center">Produtos</h2>
+    <div class="row justify-content-center">
+  
+      <!-- Óleo para barba -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 text-center">
+          <img src="oleo-barba.webp"
+               alt="Óleo para Barba"
+               style="max-width: 300px; height: auto; display: block; margin: 0 auto;">
+               <strong><span>R$ 45,00</span></strong>
+          <div class="card-body">
+            <h5 class="card-title">Óleo para Barba</h5>
+            <p>Hidrata e fortalece sua barba, com óleos essenciais e vitaminas. Ideal para barbas médias a longas e ressecadas, promove crescimento saudável, maciez e um perfume irresistível.</p>
+            <a href="#" class="btn btn-dark">Comprar</a>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Gel capilar -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 text-center">
+          <img src="gel.webp"
+               alt="Gel Capilar"
+               style="max-width: 300px; height: auto; display: block; margin: 0 auto;">
+               <strong><span>R$ 15,00</span></strong>
+          <div class="card-body">
+            <h5 class="card-title">Gel Capilar</h5>
+            <p>Gel Condicionante Bozzano Controle e hidratação para um penteado impecável. Mantenha o brilho natural e expresse seu estilo com personalidade!
+            </p>
+            <a href="#" class="btn btn-dark">Comprar</a>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Tônico Capilar -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 text-center">
+          <img src="tonico-capilar.webp"
+               alt="Tônico Capilar"
+               style="max-width: 300px; height: auto; display: block; margin: 0 auto;">
+               <strong><span>R$ 50,00</span></strong>
+          <div class="card-body">
+            <h5 class="card-title">Tônico Capilar</h5>
+            <p>Preocupado com a calvície? O tônico capilar para crescer cabelo é a solução dos seus problemas, mano! </p>
+            <a href="#" class="btn btn-dark">Comprar</a>
+          </div>
+        </div>
+      </div>
+  
+    </div>
+  </section>
+ 
+  <!-- Seção Agendamento -->
+  <section id="agendamento" class="bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4">Agende Seu Horário</h2>
+      <form class="row g-3" action="#" method="post">
+        <div class="col-md-6">
+          <label for="nome" class="form-label">Nome</label>
+          <input type="text" class="form-control" id="nome" name="nome" required>
+        </div>
+        <div class="col-md-6">
+          <label for="telefone" class="form-label">Telefone</label>
+          <input type="tel" class="form-control" id="telefone" name="telefone" required>
+        </div>
+        <div class="col-md-6">
+          <label for="servico" class="form-label">Serviço</label>
+          <select class="form-select" id="servico" name="servico" required>
+            <option selected disabled>Escolha...</option>
+            <option>Corte</option>
+            <option>Barba</option>
+            <option>Corte + Pintura</option>
+            <option>Sobrancelha + Limpeza</option>
+          </select>
+        </div>
+        <div class="col-md-6">
+          <label for="data" class="form-label">Data</label>
+          <input type="date" class="form-control" id="data" name="data" required>
+        </div>
+        <div class="col-md-6">
+          <label for="hora" class="form-label">Horário</label>
+          <input type="time" class="form-control" id="hora" name="hora" required>
+        </div>
+        <div class="col-12 text-center">
+          <button type="submit" class="btn btn-dark mt-3">Agendar</button>
+        </div>
+      </form>
+    </div>
+  </section>
+ 
+  <!-- Seção Contato -->
+  <section id="contato" class="container">
+    <h2 class="text-center mb-4">Contato</h2>
+    <p class="text-center">Fale conosco pelo WhatsApp ou redes sociais. Estamos prontos para te atender!</p>
+    <div class="text-center">
+      <a href="https://wa.me/55SEUNUMERO" target="_blank" class="btn btn-success">WhatsApp</a>
+    </div>
+  </section>
+ 
+  <!-- Scripts do Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
+   <!-- Rodapé -->
+<footer class="bg-dark text-white mt-5 pt-4 pb-3">
+    <div class="container">
+      <div class="row">
+ 
+        <!-- Endereço e mapa -->
+        <div class="col-md-6 mb-4">
+          <h5>Nosso Endereço</h5>
+          <p>Rua Aderbal, 37A - Jardim Iracema<br>São Paulo - SP, 05847-450</p>
+          <div class="ratio ratio-4x3">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3654.4965047106443!2d-46.74966882387873!3d-23.658195978733456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce517de5077fcb%3A0xcd2d0ad4b747d8c6!2sR.%20Aderbal%2C%2037A%20-%20Jardim%20Iracema%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2005847-450!5e0!3m2!1spt-BR!2sbr!4v1749510911739!5m2!1spt-BR!2sbr" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+ 
+        <!-- Contato rápido -->
+        <div class="col-md-6 mb-4">
+          <h5>Fale Conosco</h5>
+          <p>📞 (11) </p>
+          <p>📧 contato@barbeariadoisirmaos.com</p>
+          <p>🕒 Seg a Sáb: 7h - 20h</p>
+        </div>
+ 
+      </div>
+      <hr class="bg-light">
+      <p class="text-center mb-0">&copy; 2025 Barbearia Dois Irmãos. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+ 
+ 
+   
+      <!-- Scripts do Bootstrap -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+    </html>
+   
+</body>
+</html>
+ 
+ 
+ 
